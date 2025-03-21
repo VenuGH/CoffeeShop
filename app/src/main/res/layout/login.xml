@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#311903"
+    android:background="@color/primary_color"
     android:orientation="vertical">
 
     <Space
@@ -22,7 +22,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="10dp"
-        app:srcCompat="@drawable/img_2" />
+        app:srcCompat="@drawable/logo" />
 
     <EditText
         android:id="@+id/editTextText"
