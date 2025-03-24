@@ -165,7 +165,7 @@
 
             <TextView
                 android:id="@+id/textView11"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:layout_weight="1"
@@ -177,7 +177,7 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:background="@color/secondary_color"
         android:layout_alignParentBottom="true"
@@ -185,13 +185,16 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
 
             <Button
                 android:id="@+id/button5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="70dp"
                 android:backgroundTint="@color/primary_color"
                 android:text="Cancell Order"
                 android:textColorLink="@color/primary_color" />
@@ -202,12 +205,12 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/primary_color"
                 android:text="Place Order"
-                android:textAlignment="textStart" />
+                android:textAlignment="textEnd" />
+
         </LinearLayout>
 
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="70dp" />
+
+
     </LinearLayout>
 
 </RelativeLayout>
