@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/pageHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:text="@string/userprofile"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Profile Details Section -->
+
+            <!-- Form Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="137dp"
+                android:background="@color/primary_color"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <!-- Profile Picture -->
+
+                <!-- Name, Email, and Telephone -->
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="56dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="70dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/profile" />
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="fill_horizontal|center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Venuri Ranasinghe"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:text="@string/mail"
+                        android:textColor="@color/white"
+                        android:textColorLink="@color/white" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/address"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <EditText
+                    android:id="@+id/tel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/secondary_color"
+                    android:backgroundTint="@color/secondary_color"
+                    android:hint="Name"
+                    android:inputType="text"
+
+                    android:padding="16dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black" />
+
+                <!-- Email Input -->
+                <EditText
+                    android:id="@+id/mail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/secondary_color"
+                    android:backgroundTint="@color/secondary_color"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+
+                    android:padding="16dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black" />
+
+                <!-- Telephone Input -->
+                <EditText
+                    android:id="@+id/telephoneInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/secondary_color"
+                    android:backgroundTint="@color/secondary_color"
+                    android:hint="Telephone"
+                    android:inputType="phone"
+
+                    android:padding="16dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black" />
+
+                <!-- Update Button -->
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/updateButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+
+                    android:backgroundTint="@color/primary_color"
+                    android:padding="16dp"
+                    android:text="Update"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom Navigation Bar -->
+</LinearLayout>

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Coffee Shop</string>
+    <string name="email">\nvenurilewsandi09@gmail.com\n</string>
+    <string name="profile">venurilewsandi09@gmail.com</string>
+    <string name="mail">venuri@gmail.com\n</string>
+    <string name="address">no.140,Temple Road,Colombo</string>
+    <string name="userprofile">Profile</string>
 </resources>

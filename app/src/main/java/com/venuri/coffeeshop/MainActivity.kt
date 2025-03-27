@@ -1,6 +1,8 @@
 package com.venuri.coffeeshop
 
+import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -10,7 +12,17 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.order)
+        setContentView(R.layout.splashscreen)
+
+        Handler().postDelayed({
+            val onboardingIntent = Intent(
+                this@MainActivity,
+                Onboarding1Activity::class.java
+            )
+            startActivity(onboardingIntent)
+            finish()
+        }, 3000)
+
 
     }
 }
