@@ -7,27 +7,22 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="919dp"
-        android:layout_height="1969dp"
-        android:background="#1F1E1E"
-        android:foregroundGravity="top"
-        app:srcCompat="@drawable/onb3"
-        tools:layout_editor_absoluteX="-14dp"
-        tools:layout_editor_absoluteY="-18dp" />
+        android:id="@+id/imageView11"
+        android:layout_width="602dp"
+        android:layout_height="957dp"
+        app:srcCompat="@drawable/onb2"
+        tools:layout_editor_absoluteX="-76dp"
+        tools:layout_editor_absoluteY="-49dp" />
 
     <TextView
         android:id="@+id/textView19"
-        android:layout_width="514dp"
-        android:layout_height="454dp"
-        android:layout_marginStart="228dp"
-        android:text="Brewing happiness, one cup at a time"
+        android:layout_width="201dp"
+        android:layout_height="284dp"
+        android:text="Change the world. Start with coffee"
         android:textAlignment="center"
         android:textColor="@color/secondary_color"
-        android:textSize="34sp"
-        android:textStyle="bold|italic"
-
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="209dp" />
-
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="50dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

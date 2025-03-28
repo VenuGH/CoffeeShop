@@ -17,6 +17,18 @@
         app:layout_constraintVertical_bias="0.359"
         app:srcCompat="@drawable/img" />
 
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="276dp"
+        android:layout_height="115dp"
+        android:text="Make coffee your first priority"
+        android:textAlignment="center"
+        android:textColor="@color/secondary_color"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="50dp" />
+
     <Button
         android:id="@+id/button7"
         android:layout_width="wrap_content"

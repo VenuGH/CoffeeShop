@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.splashscreen)
+        setContentView(R.layout.login)
 
         Handler().postDelayed({
             val onboardingIntent = Intent(

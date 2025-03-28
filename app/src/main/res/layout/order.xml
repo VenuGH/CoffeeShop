@@ -120,7 +120,7 @@
                 android:textColorLink="@color/secondary_color" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/button6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -190,7 +190,7 @@
             android:layout_margin="10dp">
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/button4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"

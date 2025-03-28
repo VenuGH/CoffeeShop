@@ -32,7 +32,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="10dp"
-        android:backgroundTint="#F0F0EC"
+        android:backgroundTint="#45443C"
         android:ems="10"
         android:hint="Username"
         android:inputType="text"
@@ -46,7 +46,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="10dp"
-        android:backgroundTint="#F0F0EC"
+        android:backgroundTint="#383832"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
@@ -64,7 +64,7 @@
         android:textColor="@color/white" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/loginbutton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
